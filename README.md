@@ -44,6 +44,7 @@ npm test
 
 
 ### Zamanlama 
+```
 14 Aralık - 16:00 : Node Js Tutorial okumaları
 14 Aralık - 18:00 : Node Js Express Test geliştirmeleri.
 14 Aralık - 19:00 - 20:00 : Mola
@@ -51,4 +52,4 @@ npm test
 -------------------------------------------------
 15 Aralık - 16:00 - 17:00 : Express Js router ve handler yapısı 
 15 Aralık - 17:00 - 19:00 : Projenin geliştirilmesi.
- 
+```
