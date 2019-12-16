@@ -53,11 +53,12 @@ router.post('/', function (req, res) {
         
     promise.then((data)=>{
      
-      if(!data)
+      if(data.length==0){
         res.status(204).json({"code":204}); 
-  
+      }
+      else{
       res.json({"code":0,"msg":"Success","records":data});
-      
+      }
     }).catch((err)=>{
       res.json(err);
     })
