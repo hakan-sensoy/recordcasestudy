@@ -52,9 +52,8 @@ router.post('/', function (req, res) {
     
         
     promise.then((data)=>{
-      console.log(data)
+     
       if(!data)
-        console.log("Dpgr")
         res.status(204).json({"code":204}); 
   
       res.json({"code":0,"msg":"Success","records":data});
